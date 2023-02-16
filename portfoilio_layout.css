@@ -1,0 +1,37 @@
+@charset "utf-8";
+/*
+Author: Riley Kneen-Teed
+Date: 3/2/2023
+Description: Layout design mainly for resume page
+
+*/
+
+.reHeading { grid-area: reHeading; }
+.reAbout { grid-area: reAbout; }
+.reEducation { grid-area: reEducation; }
+.reExpertise { grid-area: reExpertise; }
+.reExperience { grid-area: reExperience; }
+.reCertification { grid-area: reCertification; }
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'reHeading reHeading reHeading'
+    'reAbout reAbout reAbout'
+    'reCertification reCertification reEducation'
+    'reExperience reExperience reExpertise';
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+
+
+
+
