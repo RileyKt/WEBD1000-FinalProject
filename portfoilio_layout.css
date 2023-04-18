@@ -20,7 +20,7 @@ Description: Layout design mainly for resume page
     'reCertification reCertification reEducation'
     'reExperience reExperience reExpertise';
   gap: 10px;
-  background-color: #2196F3;
+  background-color: darkslategrey;
   padding: 10px;
 }
 
